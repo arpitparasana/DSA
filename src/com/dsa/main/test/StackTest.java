@@ -1,5 +1,6 @@
 package com.dsa.main.test;
 
+import com.dsa.structures.StackOfChar;
 import com.dsa.structures.StackOfInt;
 
 public class StackTest {
@@ -13,10 +14,36 @@ public class StackTest {
 		intStack.push(34);
 		intStack.push(78);
 		
+		
 		System.out.println("Popping: " + intStack.pop());
 		System.out.println("Popping: " + intStack.pop());
 		System.out.println("Popping: " + intStack.pop());
 		System.out.println("Popping: " + intStack.pop());
 		System.out.println("Popping: " + intStack.pop());
+		
+		
+		System.out.println("creating stack of size 5...");
+		StackOfChar charStack = new StackOfChar(5);
+		charStack.push('J');
+		charStack.push('O');
+		charStack.push('H');
+		charStack.push('N');
+		charStack.push('D');
+		
+		System.out.println(charStack.display());
+		
+		System.out.println("Popping: " + charStack.pop());
+		System.out.println("Popping: " + charStack.pop());
+
+		System.out.println(charStack.display());
+
+		System.out.println("Popping: " + charStack.pop());
+		System.out.println("Popping: " + charStack.pop());
+		System.out.println("Popping: " + charStack.pop());
+		
+		System.out.println(charStack.display());
+
+		
+		
 	}
 }
