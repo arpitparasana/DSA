@@ -1,7 +1,7 @@
 package com.dsa.main.test;
 
-import com.dsa.structures.StackOfChar;
-import com.dsa.structures.StackOfInt;
+import com.dsa.structures.seq.StackOfChar;
+import com.dsa.structures.seq.StackOfInt;
 
 public class StackTest {
 

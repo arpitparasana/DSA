@@ -1,4 +1,4 @@
-package com.dsa.structures;
+package com.dsa.structures.seq;
 
 /**
  * @author Arpit Parasana Implementation of Linear Queue with limitation where

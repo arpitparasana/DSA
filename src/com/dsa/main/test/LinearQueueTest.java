@@ -1,6 +1,6 @@
 package com.dsa.main.test;
 
-import com.dsa.structures.LinearQueueInt;
+import com.dsa.structures.seq.LinearQueueInt;
 
 public class LinearQueueTest {
 

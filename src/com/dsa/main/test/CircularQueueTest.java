@@ -1,6 +1,6 @@
 package com.dsa.main.test;
 
-import com.dsa.structures.CircularQueueInt;
+import com.dsa.structures.seq.CircularQueueInt;
 
 public class CircularQueueTest {
 

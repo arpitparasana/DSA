@@ -1,4 +1,4 @@
-package com.dsa.structures;
+package com.dsa.structures.seq;
 
 public class CircularQueueInt {
 
